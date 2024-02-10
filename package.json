@@ -1,0 +1,20 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx json-server ./db.json",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
